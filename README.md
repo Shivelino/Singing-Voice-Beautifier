@@ -1,4 +1,12 @@
+ATTENTION: This repo is not usable now, following bugs exist:
+
+- `Requirements.txt` is not suitable for `Python3.10` and `torch2.2.1+cuda12.1`
+- `phone_set.json` not found, and author didn't provide method to fix. [Cannot find file phone_set.json and how to generate it? · Issue #7 · MoonInTheRiver/NeuralSVB (github.com)](https://github.com/MoonInTheRiver/NeuralSVB/issues/7)
+- train and val bugs. Force running will result a failure, with every epoch total loss 0.
+- no inference from raw wav.
+
 # Learning the Beauty in Songs: Neural Singing Voice Beautifier
+
 ---
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2202.13277)
 [![GitHub Stars](https://img.shields.io/github/stars/MoonInTheRiver/NeuralSVB)](https://github.com/MoonInTheRiver/NeuralSVB)
